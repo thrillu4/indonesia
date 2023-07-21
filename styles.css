@@ -1,0 +1,112 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 1420px;
+  margin: 0 auto;
+}
+h1 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+.promotion {
+  width: 100%;
+  background: url(./images/promo.png) center center/cover no-repeat;
+}
+.promotion_nav {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.nav-links {
+  margin-right: 400px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.action_buttons {
+  display: flex;
+  gap: 40px;
+}
+.main-promo {
+  margin: 180px 0 0 210px;
+}
+.title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.promo_button {
+  margin-top: 20px;
+  padding: 16px 25px;
+  border: none;
+  border-radius: 211px;
+  background: #dd2242;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.video-line {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.video_item {
+  width: 300px;
+  height: 200px;
+  padding: 90px 30px 0px;
+  cursor: pointer;
+  opacity: 0.6000000238418579;
+}
+.video_item:hover {
+  transform: translateY(-20px) scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.6s;
+  opacity: 1;
+  z-index: 44;
+}
+.video_item-title {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41.081px;
+}
+.video_item-subtitle {
+  color: #dbd5d5;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
